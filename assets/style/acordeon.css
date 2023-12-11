@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    border: 1px solid;
+    border: 1px solid #e228d8;
     border-radius: 1rem;
     margin:1rem 0;
     transition: .25s;
@@ -10,8 +10,8 @@
 
 .acordeon.open,
 .acordeon:hover{
-    background-color: #55569e;
-    border-color: #55569e;
+    background-color: rgb(29, 30, 73);
+    border-color: #e228d8;
 }
 
 
@@ -47,7 +47,7 @@
     height: 1.5rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('../img/icons/arrow.svg');
+    background-image: url('/assets/image/icons/arrow.svg');
     transition: .25s;
 
 }

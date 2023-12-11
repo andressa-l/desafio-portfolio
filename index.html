@@ -1,162 +1,282 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/style/global.css" />
     <link rel="stylesheet" href="/assets/style/acordeon.css" />
     <link rel="stylesheet" href="/assets/style/experience.css" />
     <link rel="stylesheet" href="/assets/style/header.css" />
     <link rel="stylesheet" href="/assets/style/languages.css" />
-    <link rel="stylesheet" href="/assets/style/portfolio.css">
+    <link rel="stylesheet" href="/assets/style/portfolio.css" />
     <link rel="stylesheet" href="/assets/style/skills.css" />
-    <link rel="stylesheet" href="/assets/style/global.css" />
+    <link rel="stylesheet" href="/assets/style/rolagem.css" />
+    <link rel="stylesheet" href="/assets/style/footer.css" />
+    <link rel="preconnect" as="font" href="./assets/style/font-awesome.css" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Mina&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/image/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/image/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/image/favicon/favicon-16x16.png" />
+    <!-- <link rel="manifest" href="/site.webmanifest" /> -->
 
     <title>Portfolio</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <main class="main">
         <header class="header">
-            <h1 class="name">Andressa Lima</h1>
-            <img src="https://th.bing.com/th/id/R.46341531871b3627e40e7f43171ee2f7?rik=wwd9N5ljbf8Pug&riu=http%3a%2f%2f1.bp.blogspot.com%2f_a5mK001oySU%2fTRYkaKqcamI%2fAAAAAAAAtSU%2fVHNcTk8hWNs%2fs1600%2f8.png&ehk=faiYvb3zBG5oOtiQmfl5JlGOCLNzt4%2bnFX8ZvYVkpiI%3d&risl=&pid=ImgRaw&r=0" alt="photo" class="photo"/>
-
-            <h2 class="about">Welcome to my profile!</h2>
+            <h1 class="name">Olá, Bem-vind@ ao perfil de Andressa Lima!</h1>
+            <img src="/assets/image/profile.jpg" alt="photo" width="34px" height="34px" class="photo" />
 
             <div class="information">
                 <p class="job">FullStack Developer</p>
                 <p class="location">Aracaju - SE</p>
-                <p class="phone"><a href="tel:(79) 9 9999-0000">(79) 9 9999-0000</a></p>
-                <p class="email"><a href="mailto:andressa@gmail.com"></a>andressa@gmail.com</p>
+                <p class="phone">
+                    <a href="tel:(79) 9 9814-6345">(79) 9 9814-6345</a>
+                </p>
+                <p class="email">
+                    <a href="mailto:andressa@gmail.com">gregorio.andressa.lima@gmail.com</a>
+                </p>
             </div>
         </header>
-        <section class="acordeon">
-            <button class="trigger" type="button">
-                <h2>Skills</h2>
-            </button>
+        <section class="scroll">
+            <section class="acordeon open">
+                <button class="trigger" type="button">
+                    <h2>Sobre</h2>
+                </button>
 
-            <div class="content">
-                <div class="skills">
-                    <section class="hardskills">
-                        <h3>Hard Skills</h3>
-                        <ul>
-                            <li>
-                                <img src="" alt="javascript">
-                            </li>
-                            <li>
-                                <img src="" alt="html">
-                            </li>
-                            <li>
-                                <img src="" alt="css">
-                            </li>
-                            <li>
-                                <img src="" alt="java">
-                            </li>
-                            <li>
-                                <img src="" alt="angular">
-                            </li>
-                            <li>
-                                <img src="" alt="typescript">
-                            </li>
-                        </ul>
-                    </section>
-                    <section class="softskills">
-                        <h3>Soft Skills</h3>
-                        <ul>
-                            <li>Empatia</li>
-                            <li>Proatividade</li>
-                            <li>Resiliência</li>
-                            <li>Autogerenciamento</li>
-                            <li>Comunicação verbal e escrita elaborada</li>
-                            <li>Relacionamento interpessoal</li>
-                        </ul>
-                    </section>
+                <div class="content">
+                    <div class="resume">
+                        <section class="about">
+                            <p>
+                                Olá! Me chamo Andressa Lima, sou uma desenvolvedora com conhecimentos Front-End e
+                                Back-End em evolução! Gosto MUITO da área de tecnologia, e tenho
+                                certeza que posso contribuir em qualquer time com as minhas
+                                habilidades.
+                            </p>
+                            <p>
+                                Estou sempre me desafiando com novos projetos e participando de
+                                comunidades de programação para buscar feedback de outros
+                                desenvolvedores e desenvolvedoras. Além de tentar ajudar essas
+                                pessoas com o que eu já aprendi.
+                            </p>
 
+                            <p>
+                                Ah, gosto de jogos, filmes, séries, animes e outras
+                                nerdices.💜💚
+                            </p>
+                        </section>
+                    </div>
                 </div>
-            </div>
+            </section>
 
-        </section>
+            <section class="acordeon">
+                <button class="trigger" type="button">
+                    <h2>Habilidades</h2>
+                </button>
 
-        <section class="acordeon">
-            <button class="trigger" type="button">
-                <h2>Idiomas</h2>
-            </button>
-
-            <div class="content">
-                <div class="languages">
-                    <li>Português</li>
-                    <li>Inglês</li>
-                    <li>Espanhol</li>
+                <div class="content">
+                    <div class="skills">
+                        <section class="hardskills">
+                            <h3>Hard Skills</h3>
+                            <ul>
+                                <li>
+                                    <i class="devicon devicon-javascript-plain" style="color: #F6DC18" id="javascript"></i>
+                                </li>
+                                <li>
+                                    <i class="devicon devicon-html5-plain-wordmark" style="color: #E34C24" id="html"></i>
+                                </li>
+                                <li>
+                                    <i class="devicon devicon-css3-plain-wordmark" style="color: #0173BC" id="css"></i>
+                                </li>
+                                <li>
+                                    <i class="devicon devicon-git-plain" style="color: red" id="git"></i>
+                                </li>
+                                <li>
+                                    <i class="devicon devicon-angularjs-plain" style="color: #B52730" id="angular"></i>
+                                </li>
+                                <li>
+                                    <i class="devicon devicon-typescript-plain" style="color: #177BD1" id="typescript"></i>
+                                </li>
+                            </ul>
+                        </section>
+                        <section class="softskills">
+                            <h3>Soft Skills</h3>
+                            <ul>
+                                <li>Empatia</li>
+                                <li>Proatividade</li>
+                                <li>Resiliência</li>
+                                <li>Autogerenciamento</li>
+                                <li>Comunicação verbal</li>
+                                <li>Escrita elaborada</li>
+                                <li>Relacionamento interpessoal</li>
+                            </ul>
+                        </section>
+                    </div>
                 </div>
-            </div>
+            </section>
 
+            <section class="acordeon">
+                <button class="trigger" type="button">
+                    <h2>Linguagens</h2>
+                </button>
+
+                <div class="content">
+                    <div class="languages">
+                        <li>Português</li>
+                        <li>Inglês</li>
+                        <li>Espanhol</li>
+                    </div>
+                </div>
+            </section>
+
+            <section class="acordeon">
+                <button class="trigger" type="button">
+                    <h2>Portfólio</h2>
+                </button>
+
+                <div class="content">
+                    <ul class="portfolio">
+                        <li>
+                            <span class="title github">Consumindo API Via CEP</span>
+                            <a href="https://github.com/andressa-l/app-cep" target="_blank" rel="noopener noreferrer">Consumindo API VIA CEP utilizando HTML + CSS + JS</a>
+                        </li>
+                        <li>
+                            <span class="title github">Consumindo API OpenWeather</span>
+                            <a href="https://github.com/andressa-l/app-previsao" target="_blank" rel="noopener noreferrer">Consumindo API OPENWEATHER utilizando HTML + CSS + JS</a>
+                        </li>
+                        <li>
+                            <span class="title github">Formulário com PHP</span>
+                            <a href="https://github.com/andressa-l/formulario-com-php" target="_blank" rel="noopener noreferrer">Formulário com HTML + CSS + PHP e conexão com banco de dados MySQL</a>
+                        </li>
+                        <li>
+                            <span class="title github">Relógio Digital</span>
+                            <a href="https://github.com/andressa-l/relogio-digital" target="_blank" rel="noopener noreferrer">Relógio Digital com HTML + CSS + JS</a>
+                        </li>
+                        <li>
+                            <span class="title github">Cartão inicial NFT</span>
+                            <a href="https://github.com/andressa-l/nft-card-initial" target="_blank" rel="noopener noreferrer">Cartão inicial NFT</a>
+                        </li>
+                        <li>
+                            <span class="title github">Página inicial do Huddle com seção introdutória única</span>
+                            <a href="https://github.com/andressa-l/huddle-landing-page" target="_blank" rel="noopener noreferrer">Página inicial do Huddle com seção introdutória única</a>
+                        </li>
+                        <li>
+                            <span class="title github">Componente Cartão de perfil</span>
+                            <a href="https://github.com/andressa-l/card-perfil-inicial" target="_blank" rel="noopener noreferrer">Componente Cartão de perfil</a>
+                        </li>
+                        <li>
+                            <span class="title github">Formulário de pesquisa responsivo web design</span>
+                            <a href="https://github.com/andressa-l/web-design-responsive-survey-form" target="_blank" rel="noopener noreferrer">Web Design de Formulário de pesquisa responsivo</a>
+                        </li>
+                        <li>
+                            <span class="title github">Consumindo API para gerar conselhos</span>
+                            <a href="https://github.com/andressa-l/gerador-de-conselhos/tree/main" target="_blank" rel="noopener noreferrer">Consumindo API para gerar conselhos</a>
+                        </li>
+                        <li>
+                            <span class="title github">Consumindo API POKEAPI - Pokedex com JavaScript</span>
+                            <a href="https://github.com/andressa-l/js-developer-pokedex" target="_blank" rel="noopener noreferrer">Consumindo API POKEAPI - Pokedex com JavaScript</a>
+                        </li>
+                        <li>
+                            <span class="title github">Padrões de Projetos na Prática com Java</span>
+                            <a href="https://github.com/andressa-l/java-design-patterns" target="_blank" rel="noopener noreferrer">Explorando Design Patterns na Prática com Java</a>
+                        </li>
+                        <li>
+                            <span class="title github">Modelagem e diagramação da representação em UML e Código do componente iPhone</span>
+                            <a href="https://github.com/andressa-l/java-iphone-representation" target="_blank" rel="noopener noreferrer">Modelagem e diagramação da representação em UML e Código do componente iPhone</a>
+                        </li>
+                        <li>
+                            <span class="title github">Interface criada com Angular baseado no layout da PlayStation Store</span>
+                            <a href="https://github.com/andressa-l/angular-interface-playstation-store" target="_blank" rel="noopener noreferrer">Projeto de interface criado com Angular baseado no layout da PlayStation Store</a>
+                        </li>
+                        <li>
+                            <span class="title github">Formulário com validação JS</span>
+                            <a href="https://github.com/andressa-l/formulario-validacao-js" target="_blank" rel="noopener noreferrer">Formulário com validação JS</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="acordeon">
+                <button class="trigger" type="button">
+                    <h2>Experiência</h2>
+                </button>
+
+                <div class="content">
+                    <ul class="experience">
+                        <li>
+                            <span class="title">
+                                <h3>Programador FullStack (Primeiro Emprego - SENAI)</h3>
+                            </span>
+                            <span class="period">Novembro de 2023 - atualmente</span>
+                        </li>
+                        <li>
+                            <span class="title">
+                                <h3>Análise e Desenvolvimento de Sistemas (Unit)</h3>
+                            </span>
+                            <span class="period">Atualmente</span>
+                        </li>
+                        <li>
+                            <span class="title">
+                                <h3>CC50 - Curso de Ciência da Computação (Fundação Estudar - Harvard)</h3>
+                            </span>
+                            <span class="period">Atualmente</span>
+                        </li>
+                        <li>
+                            <span class="title">
+                                <h3>Trabalhando em um Mundo Digital: Qualificações Profissionais (IBM SkillsBuild)</h3>
+                            </span>
+                            <span class="period">Atualmente</span>
+                        </li>
+                        <li>
+                            <span class="title">
+                                <h3>
+                                    Curso FullStack Java e Angular (Bolsa de estudos - Santander)
+                                </h3>
+                            </span>
+                            <span class="period">Agosto a Outubro de 2023</span>
+                        </li>
+                        <li>
+                            <span class="title">
+                                <h3>DevOps e Agile Culture (FIAP)</h3>
+                            </span>
+                            <span class="period">Janeiro a Fevereiro de 2023</span>
+                        </li>
+                        <li>
+                            <span class="title">
+                                <h3>Algoritmos e Lógica de Programação (Udemy)</h3>
+                                <span class="period">Agosto a Setembro de 2022</span>
+                            </span>
+                        </li>
+                        
+                        
+                    </ul>
+                </div>
+            </section>
         </section>
-
-        <section class="acordeon">
-            <button class="trigger" type="button">
-                <h2>Portfólio</h2>
-            </button>
-
-            <div class="content">
-                <ul class="portfolio">
-                    <li>
-                        <span>Consumindo API Via CEP</span>
-                        <a href="http://" target="_blank" rel="noopener noreferrer">Consumindo API Via CEP</a>
-                    </li>
-                    <li>
-                        <span>Consumindo API OpenWeather</span>
-                        <a href="http://" target="_blank" rel="noopener noreferrer">Consumindo API OpenWeather</a>
-                    </li>
-                    <li>
-                        <span>Formulário com PHP</span>
-                        <a href="http://" target="_blank" rel="noopener noreferrer">Formulário com PHP</a>
-                    </li>
-                    <li>
-                        <span>Relógio Digital</span>
-                        <a href="http://" target="_blank" rel="noopener noreferrer">Formulário com PHP</a>
-                    </li>
-                </ul>
-            </div>
-
-        </section>
-
-        <section class="acordeon">
-            <button class="trigger" type="button">
-                <h2>Experiência</h2>
-            </button>
-
-            <div class="content">
-                <ul class="experience">
-                    <li>
-                        <span class="title">
-                            <h3>Curso FullStack Java angular</h3>
-                        </span>
-                        <span>Data</span>
-                    </li>
-                    <li>
-                        <span class="title">
-                            <h3>Curso de Lógica e Programação</h3>
-                            <span>Data</span>
-                        </span>
-                    </li>
-                    <li>
-                        <span class="title">
-                            <h3>DevOps e Agile Culture</h3>
-                        </span>
-                        <span>Data</span>
-                    </li>
-                    <li>
-                        <span class="title">
-                            <h3>Programador FullStack (Primeiro Emprego - SENAI)</h3>
-                        </span>
-                        <span>Data</span>
-                    </li>
-                </ul>
-            </div>
-
-        </section>
-
     </main>
-   
-    <footer></footer>
+
+    <footer class="footer">
+        <div class="container">
+            
+            <div class="efeito">
+                <p>Coding is <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+            </div> 
+            <h2>Log in! ✨</h2>
+            <div class="redes-sociais">
+                <a href="https://www.linkedin.com/in/andressa-lima-b18988253/" class="outer-shadow" target="_blank">
+                    <i class="devicon-linkedin-plain" id="linkedin"></i>
+                </a>
+                <a href="https://github.com/andressa-l" class="outer-shadow" target="_blank">
+                    <i class="devicon-github-plain" id="github"></i>
+                </a>
+            </div>
+        </div>
+        
+    </footer>
     <script src="/assets/js/script.js"></script>
-  </body>
+</body>
+
 </html>
