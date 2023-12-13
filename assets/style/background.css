@@ -1,0 +1,68 @@
+body {
+  background-image: url(/assets/image/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* color: #fff; */
+}
+
+.sky {
+  &, #background, #foreground {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    overflow: hidden;
+    z-index: -2;
+  }
+  #background, #foreground {
+    .star {
+      display: block;
+      height: 2px;
+      width: 2px;
+      background: #ddd;
+      position: absolute;
+      border-radius: 50%;
+    }
+  }
+  #foreground {
+    animation: rotate-bg 480s linear infinite;
+  }
+  #background {
+    animation: rotate-bg 240s linear infinite;
+    .star {
+      opacity: 0.2;
+    }
+  }
+  #shooting-star {
+    position: absolute;
+    display: none;
+    height: 1px;
+    width: 20px;
+    box-shadow: 0 0 10px #fff;
+    background: #888;
+    border-radius: 7px;
+    animation: shooting-star 1s linear infinite;
+    transition: 1.5s linear;
+  }
+  
+}
+@keyframes rotate-bg {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes shooting-star {
+  0% {
+    width: 60px;
+    background: #888;
+  }
+  100% {
+    width: 80px;
+    opacity: 0;
+    background: #444;
+  }
+}

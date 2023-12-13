@@ -1,20 +1,11 @@
 /* FOOTER */
 .footer {
-    margin-top: 7rem;
+    margin-top: 2rem;
     text-align: center;
 }
 
 .footer .container {
     padding: 3rem 0;
-}
-
-
-.footer h2 {
-    font-family: 'Mina', monospace;
-    font-size: 1.6rem;
-    font-weight: 700;
-    letter-spacing: 2px;
-    margin-bottom: 20px;
 }
 
 .redes-sociais a {
@@ -24,46 +15,40 @@
     font-size: 1.5rem;
     text-decoration: none;
     text-align: center;
-    color: #fff;
     margin: 0 4px;
     border-radius: 50%;
     transition: all 0.3s ease;
+    background-color: rgb(29, 30, 73); 
 }
   
 .redes-sociais a i {
     line-height: 40px;
-    color: #fff;
+    color: #ffffff;
 }
   
 .redes-sociais a:hover {
-    color: #43bd43;
+    color: #e228d8;
 }
   
 .outer-shadow {
-    box-shadow: 3px 3px #222327, -3px -3px 3px #454545;
+    box-shadow: 3px 3px #222327;
 }
-  
-.inner-shadow {
-    box-shadow: inset 3px 3px 3px #222327, inset -3px -3px 3px #454545;
-}
-
 .efeito {
     margin-bottom: 30px;
 }
 
 .efeito p {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bold;
     letter-spacing: 0.1rem;
     overflow: hidden;
     font-family: 'Mina', monospace;
     color: #eee;
-    
 }
 
 .efeito p span.typed-text {
-    font-weight: normal;
-    color: #02d096;
+    font-weight: bolder;
+    color: rgb(29, 30, 73);
   }
 
 .efeito p span.cursor {
