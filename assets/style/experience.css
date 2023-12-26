@@ -26,3 +26,8 @@
     background-image: url('../image/icons/data.svg');
     margin-right: .5rem;
 }
+
+.areas-experience {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
